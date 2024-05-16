@@ -94,6 +94,13 @@
   li{
     list-style: none;
   }
+  @font-face {
+    font-family: 'Sohne kraftig';
+    src: url('/public/Shne\ Schmal\ Kraftig.ttf'); 
+   }
+   .kra{
+    font-family: 'Sohne kraftig';
+   }
 
   @font-face {
     font-family: 'Helvetica2';

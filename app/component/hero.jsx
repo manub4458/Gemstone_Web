@@ -6,11 +6,11 @@ const Hero = () => {
    
    <div className='h-screen flex justify-around items-center'>
      <div className='flex flex-col space-y-2 '>
-        <h1 className='text-4xl goudy'>
+        <h1 className='text-4xl kra'>
             Ethical Handmade 
         </h1>
 
-        <h2 className='text-4xl goudy'>
+        <h2 className='text-4xl kra'>
             Stones
         </h2>
 
@@ -24,7 +24,7 @@ const Hero = () => {
      </div>
     
      <div className='flex'>
-        <img src="/hero3.jpg" alt="Hero1" 
+        <img src="/hero4.webp" alt="Hero1" 
          width={400} height={400}
          className='w-[425px] h-[679px]'
         />

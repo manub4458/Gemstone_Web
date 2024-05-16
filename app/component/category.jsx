@@ -9,7 +9,7 @@ const Category = () => {
 	}, []);
   return (
     <>
-    <div>
+    <div className='my-10'>
         <div>
 
             <h1 className='flex justify-center items-center text-4xl goudy'>
@@ -18,7 +18,7 @@ const Category = () => {
         </div>
 
          <div className='flex flex-col'>
-         <div className='flex justify-around my-6 '
+         <div className='flex justify-around my-10 '
           data-aos="fade-left"
           data-aos-duration="2000"
          >
