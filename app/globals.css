@@ -83,6 +83,9 @@
    /* Hide scrollbar for IE, Edge and Firefox */
    
 }
+    body,html{
+      overflow-x: hidden;
+    }
   .cursor {
     height: 20px;
     width: 20px;
