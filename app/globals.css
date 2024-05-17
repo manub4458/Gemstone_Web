@@ -74,6 +74,15 @@
       @apply bg-background text-foreground;
     }
   } */
+
+  @layer utilities {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+   /* Hide scrollbar for IE, Edge and Firefox */
+   
+}
   .cursor {
     height: 20px;
     width: 20px;
@@ -120,4 +129,9 @@
   
   .goudy { 
    font-family: 'goudy old style';
+  }
+  .br:hover{
+    scale: 1.09;
+    
+    transition: all 500ms ease-in;
   }

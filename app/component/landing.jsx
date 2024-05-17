@@ -4,6 +4,8 @@ import Hero from './hero'
 import Category from './category'
 import Beauty from './beauty'
 import Hero2 from './hero2'
+import Guide from './guide'
+import Cost from './cost'
 
 const Landing = () => {
   return (
@@ -13,6 +15,8 @@ const Landing = () => {
     <Hero2 />
     <Category />
     <Beauty />
+    <Guide />
+    <Cost />
     
     </>
   )

@@ -5,7 +5,7 @@ const Hero2 = () => {
   <>
   <div>
 
-    <div className='bg-[url("/hero4.webp")] space-y-4 flex flex-col justify-center items-center bg-cover head bg-opacity-20 bg-no-repeat h-screen w-screen'>
+    <div className='bg-[url("/hero4.webp")]  space-y-4 flex flex-col justify-center items-center bg-cover head bg-opacity-20 bg-no-repeat h-screen w-screen'>
          <div>
             <h1 className='text-white text-4xl kra'>
             Embrace the elegance of eternity 
